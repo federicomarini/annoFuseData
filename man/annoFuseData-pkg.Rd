@@ -7,3 +7,6 @@
 \description{
 \code{annoFuseData} is a Bioconductor package that provides ...
 }
+\details{
+handle imports here if necessary
+}
