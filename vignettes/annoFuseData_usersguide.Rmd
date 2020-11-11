@@ -63,6 +63,25 @@ library("annoFuseData")
 
 ```
 
+# Main
+
+Will describe and give some initial overview on each dataset:
+
+* `FilteredFusionAnnoFuse.tsv`
+* `PutativeDriverAnnoFuse.tsv`
+* `arriba_example.tsv`
+* `example.rsem.genes.results.gz`
+* `exonsToPlot.RDS`
+* `expr_collapsed.rds`
+* `final_fusion_mmc2.txt`
+* `fusionreference.txt`
+* `genelistreference.txt`
+* `gtex_collapsed.rds`
+* `merged_arriba_tcga.tsv`
+* `merged_starfusion_tcga.tsv`
+* `pfamDataBioMart.RDS`
+* `sample_aliquot_tcga.tsv`
+* `starfusion_example.tsv`
 
 # Session info {- .smaller}
 
