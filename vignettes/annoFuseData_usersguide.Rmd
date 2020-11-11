@@ -53,35 +53,60 @@ options(width = 100)
 
 ---
 
-# Introduction {#introduction}
+# Datasets for `annoFuse`
 
 ```{r}
 library("annoFuseData")
 ```
 
+### Example output files from fusion callers {-}
+
+* `arriba_example.tsv`
+* `starfusion_example.tsv`
+
 ```{r}
 
 ```
 
-# Main
+annoFuse_single_sample
 
-Will describe and give some initial overview on each dataset:
+### Expression data {-}
+
+* `example.rsem.genes.results.gz`
+
+### Examples of output files from the `annoFuse` workflow {-}
 
 * `FilteredFusionAnnoFuse.tsv`
 * `PutativeDriverAnnoFuse.tsv`
-* `arriba_example.tsv`
-* `example.rsem.genes.results.gz`
+
+### Adding domain level information and exon information {-}
+
+Will describe and give some initial overview on each dataset:
+
+* `pfamDataBioMart.RDS`
 * `exonsToPlot.RDS`
-* `expr_collapsed.rds`
-* `final_fusion_mmc2.txt`
-* `fusionreference.txt`
-* `genelistreference.txt`
-* `gtex_collapsed.rds`
+
+
+### Analysis of TCGA data {-}
+
 * `merged_arriba_tcga.tsv`
 * `merged_starfusion_tcga.tsv`
-* `pfamDataBioMart.RDS`
 * `sample_aliquot_tcga.tsv`
-* `starfusion_example.tsv`
+* `final_fusion_mmc2.txt`
+
+### Scoring the annotated fusion calls {-}
+
+zscored_annotation
+
+* `expr_collapsed.rds`
+* `gtex_collapsed.rds`
+
+### Reference tables for gene lists and fusions {-}
+
+fusion_driver
+
+* `genelistreference.txt`
+* `fusionreference.txt`
 
 # Session info {- .smaller}
 
