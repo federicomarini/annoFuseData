@@ -1,0 +1,35 @@
+Package: annoFuseData
+Type: Package
+Title: Data Package for the annoFuse Bioconductor Package.
+Version: 0.1.0
+Authors@R: c(person(c("Krutika", "S."), "Gaonkar", role = c("aut", "cre"),
+    email = "gaonkark@chop.email.edu",
+    comment = c(ORCID = "0000-0003-0838-2405")),
+    person("Federico", "Marini", role = "aut",
+    email = "marinif@uni-mainz.de",
+    comment = c(ORCID = "0000-0003-3252-7758")),
+    person(c("Komal", "S."), "Rathi", role = "ctb",
+    email = "rathik@email.chop.edu",
+    comment = c(ORCID = "0000-0001-5534-6904")),
+    person(c("Jaclyn", "N."), "Taroni", role = "ctb",
+    email = "jaclyn.taroni@ccdatalab.org",
+    comment = c(ORCID = "0000-0003-4734-4508")))
+Description: This package contains a set of exemplary datasets to be used for
+    correctly running annoFuse, a package for annotating, prioritizing, and 
+    interactively exploring putative oncogenic RNA fusions. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+Imports: 
+    methods
+Suggests: 
+    knitr,
+    rmarkdown,
+    BiocStyle
+VignetteBuilder: knitr
+NeedsCompilation: no
+biocViews:
+    Software, Transcription, Visualization, GeneExpression, Annotation,
+    GeneFusionDetection, GUI, ReportWriting
