@@ -2,7 +2,7 @@
 #'
 #' `annoFuseData` is a Bioconductor package that provides ...
 #'
-#' # @importFrom
+#' # handle imports here if necessary
 #'
 #' @name annoFuseData-pkg
 #' @docType package
