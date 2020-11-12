@@ -5,10 +5,19 @@
 \alias{expr_collapsed}
 \title{expr_collapsed.rds}
 \format{
-When read in via read.delim, the following information is available:
+When read in via readRDS, the following information is available:
+\itemize{
+\item gene_id
+\item SRR1069188
+\item SRR1070986
+\item SRR1071289
+\item SRR1071880
+\item SRR1072178
+}
 }
 \description{
 detailed desc
+58581 * 6 columns
 }
 \references{
 if any

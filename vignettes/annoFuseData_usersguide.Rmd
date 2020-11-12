@@ -144,10 +144,10 @@ zscored_annotation
 
 ```{r}
 expressionMatrix <- readRDS(system.file("extdata", "expr_collapsed.rds", package = "annoFuseData"))
-normData <- readRDS(system.file("extdata", "gtex_collapsed.rds", package = "annoFuseData"))
+gtex_collapsed <- readRDS(system.file("extdata", "gtex_collapsed.rds", package = "annoFuseData"))
 
 head(expressionMatrix)
-head(normData)
+head(gtex_collapsed)
 ```
 
 

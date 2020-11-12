@@ -6,11 +6,14 @@
 \title{genelistreference.txt}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item Gene_Symbol
+\item type
+\item file
+}
 }
 \description{
 detailed desc
-}
-\references{
-if any
+4954 * 3 columns
 }
 \keyword{datasets}

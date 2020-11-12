@@ -7,7 +7,7 @@
 \format{
 When read in via read.delim, the following information is available:
 \itemize{
-\item X.gene1: TODO
+\item X.gene1: TODO - TODO: check if this is indeed the way it is supposed to be read in (if not, we would need to add a dependency to the data package as well)
 \item gene2: TODO
 \item strand1.gene.fusion.: TODO
 \item strand2.gene.fusion.: TODO
@@ -38,5 +38,6 @@ When read in via read.delim, the following information is available:
 }
 \description{
 detailed desc: TODO
+25 rows are included, with details about 27 different features (see details below).
 }
 \keyword{datasets}

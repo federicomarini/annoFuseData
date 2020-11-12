@@ -6,8 +6,11 @@
 \title{sample_aliquot_tcga.tsv}
 \format{
 When read in via read.delim, the following information is available:
-
-if it applies
+\itemize{
+\item name
+\item sample_id
+\item aliquot_id
+}
 }
 \description{
 detailed desc

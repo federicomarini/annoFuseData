@@ -6,9 +6,23 @@
 \title{exonsToPlot.RDS}
 \format{
 When read in via readRDS, the following information is available:
+\itemize{
+\item contig
+\item type
+\item start
+\item end
+\item strand
+\item attributes
+\item geneName
+\item geneID
+\item transcript
+\item exonNumber
+}
 }
 \description{
 detailed desc
+58347 observations are included, with details about 7 different features (
+see details below).
 }
 \references{
 if any

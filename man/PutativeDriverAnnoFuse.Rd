@@ -9,6 +9,8 @@ When read in via read.delim, the following information is available:
 }
 \description{
 detailed desc
+4762 observations are included, with details about 29 different features (
+see details below).
 }
 \references{
 if any

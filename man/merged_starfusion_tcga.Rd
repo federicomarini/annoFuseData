@@ -6,9 +6,39 @@
 \title{merged_starfusion_tcga.tsv}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item X.FusionName
+\item JunctionReadCount
+\item SpanningFragCount
+\item SpliceType
+\item LeftGene
+\item LeftBreakpoint
+\item RightGene
+\item RightBreakpoint
+\item LargeAnchorSupport
+\item FFPM
+\item LeftBreakDinuc
+\item LeftBreakEntropy
+\item RightBreakDinuc
+\item RightBreakEntropy
+\item annots
+\item CDS_LEFT_ID
+\item CDS_LEFT_RANGE
+\item CDS_RIGHT_ID
+\item CDS_RIGHT_RANGE
+\item PROT_FUSION_TYPE
+\item FUSION_MODEL
+\item FUSION_CDS
+\item FUSION_TRANSL
+\item PFAM_LEFT
+\item PFAM_RIGHT
+\item Sample
+\item Caller
+}
 }
 \description{
 detailed desc
+1527 * 27
 }
 \references{
 if any

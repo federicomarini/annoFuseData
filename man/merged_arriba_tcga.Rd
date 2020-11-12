@@ -6,9 +6,40 @@
 \title{merged_arriba_tcga.tsv}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item X.gene1
+\item gene2
+\item strand1.gene.fusion.
+\item strand2.gene.fusion.
+\item breakpoint1
+\item breakpoint2
+\item site1
+\item site2
+\item type
+\item direction1
+\item direction2
+\item split_reads1
+\item split_reads2
+\item discordant_mates
+\item coverage1
+\item coverage2
+\item confidence
+\item closest_genomic_breakpoint1
+\item closest_genomic_breakpoint2
+\item filters
+\item fusion_transcript
+\item reading_frame
+\item peptide_sequence
+\item read_identifiers
+\item Sample
+\item gene1..gene2
+\item annots
+\item Caller
+}
 }
 \description{
 detailed desc
+8983 * 28 columns
 }
 \references{
 if any

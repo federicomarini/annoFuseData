@@ -6,9 +6,23 @@
 \title{pfamDataBioMart.RDS}
 \format{
 When read in via readRDS, the following information is available:
+\itemize{
+\item hgnc_symbol
+\item pfam_id
+\item chromosome_name
+\item gene_start
+\item gene_end
+\item strand
+\item NAME
+\item DESC
+\item domain_chr
+\item domain_start
+\item domain_end
+}
 }
 \description{
 detailed desc
+57406 * 11
 }
 \references{
 if any

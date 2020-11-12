@@ -6,9 +6,19 @@
 \title{final_fusion_mmc2.txt}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item Cancer
+\item Sample
+\item Fusion
+\item Junction
+\item Spanning
+\item Breakpoint1
+\item Breakpoint2
+}
 }
 \description{
 detailed desc
+25664 * 7cols
 }
 \references{
 if any

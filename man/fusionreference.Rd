@@ -6,11 +6,14 @@
 \title{fusionreference.txt}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item FusionName
+\item file
+\item type
+}
 }
 \description{
 detailed desc
-}
-\references{
-if any
+17754 * 3
 }
 \keyword{datasets}

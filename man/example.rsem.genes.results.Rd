@@ -6,9 +6,20 @@
 \title{example.rsem.genes.results.gz}
 \format{
 When read in via read.delim, the following information is available:
+\itemize{
+\item gene_id
+\item transcript_id.s.
+\item length
+\item effective_length
+\item expected_count
+\item TPM
+\item FPKM
+}
 }
 \description{
 detailed desc
+58347 observations are included, with details about 7 different features (
+see details below).
 }
 \references{
 if any
