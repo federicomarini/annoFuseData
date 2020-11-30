@@ -175,7 +175,7 @@ NULL
 #' - geneID: Denotes Ensemble gene id
 #' - transcript: Denotes Ensemble transcript id
 #' - exonNumber: Denotes exon rank in transcript
-#' @references if any
+#' @references Feature information extracted from gencode.v27.primary_assembly.annotation.gtf.gz
 #'
 #' @name exonsToPlot
 #' @docType data
@@ -253,6 +253,18 @@ NULL
 #' - Gene_Symbol: Denotes gene symbol
 #' - type: Denotes annotation type, values could beTumorSuppressorGene, CosmicCensus, TranscriptionFactor.Oncogene or Kinase
 #' - file: Source file used to gather annotation
+#' @references Annotation	File	Source:
+#' UCSC pfamID Description database:	http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/pfamDesc.txt.gz
+#' UCSC pfamID Description database: http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ucscGenePfam.txt.gz
+#' TumorFusions: an integrative resource for cancer-associated transcript fusions PMID: 29099951	https://tumorfusions.org/PanCanFusV2/downloads/pancanfus.txt.gz
+#' Oncogenes	http://www.bushmanlab.org/assets/doc/allOnco_Feb2017.tsv	www.bushmanlab.org
+#' Tumor suppressor genes (TSGs)	https://bioinfo.uth.edu/TSGene/Human_TSGs.txt?csrt=5027697123997809089	Tumor Suppressor Gene Database 2.0 PMIDs: 23066107, 26590405
+#' Kinases from The protein kinase complement of the human genome PMID: 12471243	http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls
+#' TranscriptionFactor from https://www.sciencedirect.com/science/article/pii/S0092867418301065?via%3Dihub#mmc2 Table S1
+#' COSMIC genes	https://cancer.sanger.ac.uk/census	Catalogue of Somatic Mutations in Cancer
+#' Pediatric-specific oncogenes	MYBL1, SNCAIP, FOXR2, TTYH1, TERT	doi:10.1073/pnas.1300252110, doi:10.1038/nature11327, doi:10.1016/j.cell.2016.01.015, doi:10.1038/ng.2849, doi:10.1038/ng.3438, doi:10.1002/gcc.22110, doi:10.1016/j.canlet.2014.11.057, doi:10.1007/s11910-017-0722-5
+#' Pediatric-specific TSGs	BCOR, QKI	doi:10.1016/j.cell.2016.01.015, doi:10.1038/ng.3500
+#'
 #' @name genelistreference
 #' @docType data
 #'
@@ -315,7 +327,7 @@ NULL
 #' - tumor_id: Sample ids for the input fusion calls
 #' - gene1..gene2: Name of the fusion
 #' - annots: Annottaion from FusionAnnotator
-#' @references Arriba documentation: https://arriba.readthedocs.io/en/latest/output-files/
+#' @references Arriba documentation: https://arriba.readthedocs.io/en/latest/output-files/.TCGA sample information from supplementary file from Driver Fusions and Their Implications in the Development and Treatment of Human Cancers available at https://www.sciencedirect.com/science/article/pii/S2211124718303954
 #'
 #' @name merged_arriba_tcga
 #' @docType data
@@ -358,7 +370,7 @@ NULL
 #' - PFAM_RIGHT: Denotes pfam id and location for reconstructed fusion transcript right to the breakpoint
 #' - Sample: Sample ids for the input fusion calls
 #' - Caller
-#' @references https://github.com/STAR-Fusion/STAR-Fusion/wiki
+#' @references Star-Fusion documentation: https://github.com/STAR-Fusion/STAR-Fusion/wiki. TCGA sample information from supplementary file from Driver Fusions and Their Implications in the Development and Treatment of Human Cancers available at https://www.sciencedirect.com/science/article/pii/S2211124718303954
 #'
 #' @name merged_starfusion_tcga
 #' @docType data
@@ -403,7 +415,7 @@ NULL
 #' - name: TCGA sample name
 #' - sample_id: TCGA sample id
 #' - aliquot_id: TCGA aliquot id
-#' @references if any
+#' @references Supplementary file from Driver Fusions and Their Implications in the Development and Treatment of Human Cancers available at https://www.sciencedirect.com/science/article/pii/S2211124718303954
 #'
 #' @name sample_aliquot_tcga
 #' @docType data
@@ -444,7 +456,7 @@ NULL
 #' - PFAM_LEFT: Denotes pfam id and location for reconstructed fusion transcript left to the breakpoint
 #' - PFAM_RIGHT: Denotes pfam id and location for reconstructed fusion transcript right to the breakpoint
 #' - tumor_id: Sample ids for the input fusion calls
-#' @references https://github.com/STAR-Fusion/STAR-Fusion/wiki
+#' @references Star-Fusion documentation: https://github.com/STAR-Fusion/STAR-Fusion/wiki
 #'
 #' @name starfusion_example
 #' @docType data
