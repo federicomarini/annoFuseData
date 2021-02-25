@@ -96,7 +96,7 @@ NULL
 #' detailed desc: Arriba fusion calls from v16 OpenPBTA
 #' 25 rows are included, with details about 27 different features (see details below).
 #'
-#' @format When read in via read_arriba_calls, the following information is available:
+#' @format When read in via read.delim(...,check.names=FALSE), the following information is available:
 #' - #gene1: 5` end of fusion, if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
 #' - gene2: 3` end of fusion,if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
 #' - strand1(gene/fusion): The strand before the slash reflects the strand of the gene according to the gene annotation supplied to arriba and the value after the slash reflects the strand that is transcribed. If breakpoint is intergenic the value is ".".
@@ -299,7 +299,7 @@ NULL
 #' detailed desc
 #' 8983 * 28 columns
 #'
-#' @format When read in via read_arriba_calls, the following information is available:
+#' @format When read in via read.delim(...,check.names=FALSE), the following information is available:
 #' - #gene1: 5` end of fusion, if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
 #' - gene2: 3` end of fusion,if breakpoint is intergenic downstream and upstream genes are provided as a comma separated
 #' - strand1(gene/fusion): The strand before the slash reflects the strand of the gene according to the gene annotation supplied to arriba and the value after the slash reflects the strand that is transcribed. If breakpoint is intergenic the value is ".".
@@ -342,7 +342,7 @@ NULL
 #' detailed desc
 #' 1527 * 27
 #'
-#' @format When read in via read_starfusion_calls, the following information is available:
+#' @format When read in via read.delim(...,check.names=FALSE), the following information is available:
 #' - #FusionName: Denotes Fusion name
 #' - JunctionReadCount: Number of supporting split read supporting the site of putative fusion
 #' - SpanningFragCount: Number of spanning fragments suporting the site
@@ -429,7 +429,7 @@ NULL
 #'
 #' detailed desc
 #' One row of the typical output file from STAR-fusion (version TODO)
-#' @format When read in via read_starfusion_calls, the following information is available:
+#' @format When read in via read.delim(...,check.names=FALSE), the following information is available:
 #' - #FusionName: Denotes Fusion name
 #' - JunctionReadCount: Number of supporting split read supporting the site of putative fusion
 #' - SpanningFragCount: Number of spanning fragments suporting the site
